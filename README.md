@@ -34,33 +34,49 @@ The ​zero crossing rate​ is the rate of sign-changes along a signal, i.e., t
 It indicates where the ”centre of mass” for a sound is located and is calculated as the
 weighted mean of the frequencies present in the sound. Consider two songs, one from a blues genre and the other belonging to metal. Now as compared to the blues genre song which is the same throughout its length, the metal song has more frequencies towards the
 end. So spectral centroid for blues song will lie somewhere near the middle of its spectrum while that for a metal song would be towards its end.
- 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="/Images/SpectralCentroid.png" height="400">
+
 There is a rise in the spectral centroid towards the end.
 
 ● Spectral Rolloff
 It is a measure of the shape of the signal. It represents the frequency below which a specified percentage of the total spectral energy, e.g. 85%, lies.
 
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="/Images/SpectralRolloff.png" height="400">
+
 ● Mel-Frequency Cepstral Coefficients
 The Mel frequency cepstral coefficients (MFCCs) of a signal are a small set of features (usually about 10–20) which concisely describe the overall shape of a spectral envelope. It models the characteristics of the human voice.
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="/Images/MelFreq.png" height="400">
 
 Here mfcc computed 20 MFCC s over 97 frames.
 
 ● Chroma Frequencies
 Chroma features are an interesting and powerful representation for music audio in which the entire spectrum is projected onto 12 bins representing the 12 distinct semitones (or chroma) of the musical octave.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="/Images/ChromaFreq.png" height="400">
   
  CLASSIFICATION
 
 After the feature is extracted​, we can use existing classification algorithms to classify the songs into different genres. We have used the following algorithms for classification:
 
-● K-nn
+● KNN
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="/Images/KNN.png" height="400">
 
 ● Random Forests
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="/Images/RandomForest.png" height="400">
   
 ● Neural Network
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="/Images/NeuralNetwork.png" height="400">
+
 ● SVM
- 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="/Images/svm.png" height="400">
  
  How to Run?
        
